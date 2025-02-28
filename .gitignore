@@ -1,0 +1,10 @@
+# Ignore all .ttf font files
+*.ttf
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore fonts directory
+fonts/

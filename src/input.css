@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+@import "tailwindcss";
+
+/* Home page style  */
+
+
+.section-1-background-pic{
+    background-image: url(./images/background-pic/background-1.png);
+    background-position: center;
+    background-size: cover;
+}
+.destination-1-background-pic{
+    background-image: url(./images/destination-1.png);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+.destination-2-background-pic{
+    background-image: url(./images/destination-2.png);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+
+}
+.destination-3-background-pic{
+    background-image: url(./images/destination-3.png);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+
+}
+.destination-4-background-pic{
+    background-image: url(./images/destination-4.png);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+
+}
+.destination-5-background-pic{
+    background-image: url(./images/destination-5.png);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+
+}
+.destination-6-background-pic{
+    background-image: url(./images/destination-6.png);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+.section-4-background-pic{
+    background-image: url(./images/background-pic/background-2.png);
+    background-position: center;
+    background-size: cover;
+}
+.section-6-background-pic{
+    background-image: url(./images/background-pic/background-3.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* Destination page style  */
+
+
+.destination-section-1-background-pic{
+    background-image: url(./images/background-pic/background-4.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.tip-background-pic-1{
+    background-image: url(./images/tip-1.png);
+    background-position: center;
+    background-size: cover;
+}
+.tip-background-pic-2{
+    background-image: url(./images/tip-2.png);
+    background-position: center;
+    background-size: cover;
+}
+.des-sec-5-bg{
+    background-image: url(./images/background-pic/background-5.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* about page style  */
+
+.about-sec-1-bg-pic{
+    background-image: url(./images/background-pic/background-6.png);
+    background-position: center;
+    background-size: cover;
+}
+.about-sec-5-bg{
+    background-image: url(./images/background-pic/background-7.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+@theme{
+
+        /* Fonts */
+    --font-primary-font:  "Poppins", "serif";
+    --font-stylish-font:  "Imperial Script", serif;
+        /* Colors */
+    --color-secondary: #c56c15;
+    --color-footer: #222222;
+    --color-transparent-background:rgba(255, 255, 255, 0.2);
+    --color-whatsapp-section:#047F01;
+        /* Break Point */
+    --breakpoint-xs:450px;
+        /* variables */
+    --standard-width:1290px;
+    --extra-small-font-size:8px;
+
+}
